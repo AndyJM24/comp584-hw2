@@ -47,63 +47,57 @@
 			}
 
 			/* Universal styles for links and stuff */
-			a:hover {
-				color: #000000 !important;
-				text-decoration: none !important;
-				opacity: 0.8 !important;
-			}
+			a:hover { opacity: 0.8; }
 
 			/* Responsive styles */
 			@media screen and (max-width: 600px) {
-				.email-container {
-					width: 100% !important;
-				}
-				.email-content {
-					padding: 20px !important;
-				}
+				.email-container { width: 100% !important; }
+				.email-content { padding-left: 20px !important; padding-right: 20px !important; }
 			}
 		</style>
 	</head>
-	<body id="body" 
-	style="margin: 0 !important; padding: 0; background: #f0f0f0 !important;">
+	<body id="body" style="margin: 0 !important; padding: 0 !important; background-color: #eeeeee;">
 
-	<div
-	class="email-container" style="max-width: 600px; margin: 0 auto; max-width: 520px; padding: 20px; width:100%;">
-	</div>
+		<!-- This div contains the entire email. -->
+		<div class="email-container" style="background-color: #ffffff; box-sizing: border-box; margin: 0 auto; max-width: 520px; padding: 20px; width: 100%;">
 
-	  <!-- Logo image -->
-	<div
-		style = 'padding: 10px 0 25px;  text-align: center;'>
-			<img
-				src = "images/Marvel-Tokon-Logo.png"
-				alt = "Marvel Tokon Fighting Souls Logo"
-				width = "220"
-				style = "display: inline-block; height: auto; max-width: 100%;"
-			/>
+			<!-- Logo image -->
+			<div style="padding: 10px 0 25px; text-align: center;">
+				<img src="images/Marvel-Tokon-Logo.png" alt="Marvel Tokon Fighting Souls logo" width="220" style="display: inline-block; height: auto; max-width: 100%;" />
+			</div>
+
+			<!-- Headline -->
+			<div style="text-align: center;">
+				<h1 style="color: #111111; font-family: Arial, sans-serif; font-size: 30px; margin: 0 0 30px;">Marvel Tokon Rank Progress</h1>
+			</div>
+
+			<!-- Hero Image -->
+			<div style="text-align: center;">
+				<img src="images/Marvel-Tokon-Wide-Image.jpg" alt="Marvel Tokon characters displayed" width="480" style="display: block; height: auto; max-width: 100%; width: 100%;" />
+			</div>
+
+			<!-- Body copy -->
+			<div id="progress" class="email-content" style="padding: 15px 0 20px;">
+				<p style="color: #222222; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; margin: 0 0 18px;">Welcome to my Marvel Tokon progress report. I created this email template not just for the project but also to keep track of the characters I am currently using and my progress in ranked.</p>
+
+				<p style="color: #222222; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; margin: 0 0 18px;"><strong>Current Team:</strong> Spider-Man, Magik, Black Panther, and Blade<br><strong>Current Rank:</strong> Master Rank<br><strong>Rank Number:</strong> 2037</p>
+
+				<p style="color: #222222; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; margin: 0 0 18px;"><strong>Recent Match Record:</strong> 8 wins and 3 losses.<br>
+					<strong>Current Goal:</strong> As of now trying to increase my rank in the leaderboards since I have found the team I am most confortable with or at least winning with.</p>
+			</div>
+
+			<!-- Button -->
+			<div style="padding: 0 0 35px;">
+				<a href="#progress" style="color: #5d2e8c; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold;">View My Latest Progress (Temp link)</a>
+			</div>
+
+			<!-- Footer information: Always include an unsubscribe link! -->
+			<div style="padding: 0 0 20px;">
+				<p style="color: #777777; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; margin: 0 0 15px;">Feel free to <a href="#" style="color: #5d2e8c;">unsubscribe</a>.</p>
+				<p style="color: #777777; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; margin: 0;">COMP 584 HW 2</p>
+			</div>
+
 		</div>
-
-		<!-- Headline -->
-		<div
-			style = 
-			
-    
-    
-		<!-- Hero Image -->
-
-    
-
-		<!-- Body copy -->
-
-    
-
-		<!-- Button -->
-
-    
-    
-		<!-- Footer information: Always include an unsubscribe link! -->
-
-
-		
 
 	</body>
 </html>
