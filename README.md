@@ -1,7 +1,7 @@
 # COMP 584 HW2
 
-This project is a basic Marvel Tokon progress email campaign created with HTML and inline CSS.
+Marvel Tokon progress email campaign made with HTML and inline CSS.
 
 ## Live website
 
-[View the live email campaign](https://AndyJM24.github.io/comp584-hw2/)
+[Link to view the live email campaign/HW 2](https://AndyJM24.github.io/comp584-hw2/)
